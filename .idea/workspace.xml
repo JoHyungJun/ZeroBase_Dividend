@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac592883-5580-4940-92bc-8bb46f59065c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/MemberEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/constants/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/security/TokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/exception/AbstractException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/exception/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/exception/impl/AlreadyExistsUserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/exception/impl/NoCompanyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/persist/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/persist/DividendRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/DividendRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/scheduler/ScraperScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scheduler/ScraperScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/security/JwtAuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/service/FinanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/FinanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
