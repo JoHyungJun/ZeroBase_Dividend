@@ -5,39 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac592883-5580-4940-92bc-8bb46f59065c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/config/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/config/SchedulerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Dividend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/ScrapedResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/constants/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/CompanyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/DividendRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/entity/CompanyEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/persist/entity/DividendEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scheduler/ScraperScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/Scraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/YahooFinanceScraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/CompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/FinanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/web/FinanceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/constants/CacheKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/model/Dividend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/model/Dividend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/scheduler/ScraperScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scheduler/ScraperScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/YahooFinanceScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/scraper/YahooFinanceScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dayone/service/FinanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dayone/service/FinanceService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +70,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
